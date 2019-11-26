@@ -358,9 +358,12 @@ nav{}
 }
 @media screen and (min-width: 310px) {
     .brands-container{
-            flex-wrap: wrap;
+            flex-wrap: nowrap;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
             height: 176px;
             margin-bottom: 8px;
             overflow: hidden;
@@ -412,6 +415,7 @@ nav{}
         width: 301px;
         height: 71px;
         margin-bottom: 15px;
+        margin-right: 0;
     }
 }
 @media screen and (min-width: 768px) {
