@@ -192,6 +192,9 @@ position: relative;
 .link-more:hover{    
     color: transparent; 
 }
+.link-more:hover:before{
+    display: none;
+}
 .main-img{
     width: 50%;
     margin-left: 32px;
@@ -330,7 +333,7 @@ nav{}
     color: #7e7e82;
 }
 
-
+/*Раздел .brands*/
 .brands{
     background-color: #f8f8f8;
     margin-bottom: 24px;
@@ -345,50 +348,49 @@ nav{}
     padding: 16px;    
     margin-bottom: 24px;
 }
-.brands-list{
+.brands-container{
     display: flex;
     flex-direction: row;
-    list-style: none;
     flex-wrap: wrap;
     height: 100px;
     overflow: hidden;
+    list-style: none;
 }
 @media screen and (min-width: 310px) {
-    .brands_container{
+    .brands-container{
             flex-wrap: wrap;
             flex-direction: column;
             justify-content: center;
             height: 176px;
             margin-bottom: 8px;
             overflow: hidden;
-            background-color: gray;
+            background-color: red;
         }
     }  
 @media screen and (min-width: 748px) {
-    .brands_container{
-            /*flex-wrap: wrap;
+    .brands-container{
+            flex-wrap: wrap;
             flex-direction: row;
             justify-content: center;
             width: 748px;
             height: 176px;
             margin-bottom: 8px;
-            overflow: hidden;*/
+            overflow: hidden;
             background-color: lightblue;
         }
+    }
 @media screen and (min-width: 1120px) {
-    .brands_container{
-            /*flex-wrap: wrap;
+    .brands-container{
+            flex-wrap: wrap;
             flex-direction: row;
-            justify-content: center;
+            justify-content: space-between;
             width: 1120px;
             height: 176px;
             margin-bottom: 8px;
-            overflow: hidden;*/
+            overflow: hidden;
             background-color: blue;
         }
-    
- 
-
+    } 
 .brands-item{
     display: flex;
     align-items: center;
@@ -405,7 +407,7 @@ nav{}
     margin-bottom: 16px;
 }
 
-/*@media screen and (min-width: 310px) {
+@media screen and (min-width: 310px) {
     .brands-item{
         width: 301px;
         height: 71px;
@@ -429,13 +431,7 @@ nav{}
     }
 }
 
-/*
-@media screen and (min-width: 1120px) {
-  .brands-item{  
-    margin-right: 32px;
-}
-}
-*/
+
 
 .arrow-btn{    
     display: block;
@@ -444,7 +440,7 @@ nav{}
     height: 42px;
 }
 
-/*@media screen and (min-width: 320px){
+@media screen and (min-width: 320px){
     .brands-section{
         flex-dirction:  column;
         background-color: red;
@@ -461,7 +457,7 @@ nav{}
             background-color: yellow;
         }        
     }
-*/
+
 
 
 
