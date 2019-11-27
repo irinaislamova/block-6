@@ -367,7 +367,7 @@ nav{}
             height: 176px;
             margin-bottom: 8px;
             overflow: hidden;
-            background-color: red;
+            /*background-color: red;*/
         }
     }  
 @media screen and (min-width: 748px) {
@@ -379,7 +379,7 @@ nav{}
             height: 176px;
             margin-bottom: 8px;
             overflow: hidden;
-            background-color: lightblue;
+            /*background-color: lightblue;*/
         }
     }
 @media screen and (min-width: 1120px) {
@@ -391,7 +391,7 @@ nav{}
             height: 176px;
             margin-bottom: 8px;
             overflow: hidden;
-            background-color: blue;
+            /*background-color: blue;*/
         }
     } 
 .brands-item{
